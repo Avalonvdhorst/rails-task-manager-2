@@ -1,0 +1,69 @@
+// index page css
+
+.task-list {
+  margin: 0 auto;
+  width: 500px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.task-list h1 {
+  font-size: 48px;
+  color: rgb(96, 93, 93);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.task-list h2 {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.task-card {
+  background-color: rgb(234, 229, 229);
+  border-radius: 5px;
+  box-shadow: 6px 6px 8px -15px rgba(0,0,0,0.75);
+  margin: 20px 15px;
+  padding: 20px 20px;
+  list-style: none;
+  font-size: 24px;
+  color: black;
+}
+
+.far {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  color: rgb(197, 159, 204);
+}
+
+// show page css
+
+.show-container {
+  margin: 0 auto;
+  width: 900px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.task-details {
+  background-color: rgb(192, 190, 209);
+  border-radius: 3px;
+  box-shadow: 6px 6px 8px -15px rgba(0,0,0,0.75);
+  margin: 40px 0px;
+  padding: 20px 20px;
+  font-size: 24px;
+  color: black;
+  width: 800px;
+}
+
+
+.task-status {
+
+}
+
+
+
+
+
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/

@@ -1,0 +1,15 @@
+<div class="task-list">
+  <h1>🌴 Ava's Tasks 🌷</h1>
+  <h3><i class="fas fa-plus"></i> <%= link_to "Add a new task!", new_task_path  %></h3>
+  <ul>
+  <% @tasks.each do |task| %>
+      <% if task.completed == true %>
+        <li class="task-card"> <i class="far fa-check-square"></i>
+        <%= link_to task.title, task_path(task.id) %> </li>
+      <% else %>
+        <li class="task-card"> <i class="far fa-square"></i>
+        <%= link_to task.title, task_path(task.id) %> </li>
+      <% end %>
+  <% end %>
+  </ul>
+</div>

@@ -1,0 +1,14 @@
+<div class="show-container">
+  <h1><%= @task.title %></h1>
+  <div class="task-details">
+    <h2><%= @task.details %></h2>
+  </div>
+  <div class="task-status">
+    <% if @task.completed == true %>
+      <h2>This task is already completed</h2>
+    <% else %>
+      <h2>This task is not completed yet</h2>
+    <% end %>
+  </div>
+  <%= link_to "Back to my list", tasks_path %>
+</div>
